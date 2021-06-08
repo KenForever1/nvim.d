@@ -21,6 +21,10 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
+Plug 'kristijanhusak/defx-icons'
+
+Plug 'kristijanhusak/defx-git'
+
 call plug#end()
 
 call defx#custom#option('_', {

@@ -1,6 +1,6 @@
 echo "load common.vim"
 
-nmap <silent> <Leader>e :Defx <cr>
+nmap <silent> <leader>e :Defx -columns=indent:icons:git:filename:type<cr>
 
 autocmd FileType defx call s:defx_my_settings()
 function! s:defx_my_settings() abort
