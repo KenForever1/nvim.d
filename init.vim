@@ -25,6 +25,8 @@ Plug 'kristijanhusak/defx-icons'
 
 Plug 'kristijanhusak/defx-git'
 
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 call plug#end()
 
 call defx#custom#option('_', {
